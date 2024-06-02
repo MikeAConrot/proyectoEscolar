@@ -3,7 +3,7 @@
 $servername = "mikeawisder";  // Cambia esto al servidor de tu base de datos
 $username = "root";  // Cambira esto a tu nombre de usuario de MySQL
 $password = "root";  // Cambia esto a tu contraseña de MySQL
-$dbname = "db";  // Cambia esto al nombre de tu base de datos
+$dbname = "dbbb";  // Cambia esto al nombre de tu base de datos
 
 // Crear la conexión
 $conn = new mysqli($servername, $username, $password, $dbname);
