@@ -1,0 +1,102 @@
+/* Estilos para las tablas.php*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF; 
+}
+
+#clock-container { /*Estilos del Reloj*/
+    position: fixed; 
+    top: 10px;
+    right: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 3px solid #FFFFFF;
+    text-align: center;
+}
+
+#clock {
+    font-family: 'Arial';
+}
+
+#noteclock { /*Estilo del texto del reloj*/
+    font-size: 11px;
+    text-align: center;
+}
+
+.tab-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    padding: 10px;
+    height: 60px;
+    align-items: center;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 10px;
+    border: 3px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: #FF8000;
+    color: #000000;
+}
+
+.tab:hover {
+    background-color: #FFD700;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+}
+
+.active-tab {
+    background-color: #FF8000;
+}
+
+.active-content {
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+
+button {
+    background-color: #006600;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: #FFFFFF;
+}
+
+button:hover {
+    background-color: #00FF00;
+    color: #000000; 
+}
